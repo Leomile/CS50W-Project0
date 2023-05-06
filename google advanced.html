@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+        <style>
+            #us{
+                text-align: right;
+            }
+            h2{
+                margin: 0px;
+                color: red;
+                padding: 5px;
+                width: 700px;
+                height: 25px;
+                font-size: 24px;
+                background-color: whitesmoke;
+             }
+             #custId{
+                width: 600px;
+            }
+            label{
+                width: 200px;
+                display: inline-block;
+            }
+            #bottom{
+               background-color: blue;
+                border: none;
+                color: white;
+                font-size: 15px;
+                padding: 10px 20px;
+                border-radius: 4px;
+                outline: none;
+                margin-left: 690px;
+            }
+            #head{
+                text-align: right;
+                margin-right: 400px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="us">
+        <a href="index.html">Google Search</a>
+        <a href="google image.html">Image Search</a>
+        </div>
+        <h2>Advanced Search</h2>
+        <h4>Find pages with...</h4>
+         <h4 id="head">To do this in the search box...<h4>
+            <form action="https://www.google.com/Advanced_search">
+                <label>all these words:</label>
+                <input type="text" id="custId" name="custId" value="">
+                the important words: <b>tri-colour rat terrier</b><br/>
+<br/>
+                <label>this exact word or phrase:</label>
+                <input type="text" id="custId" name="custId" value="">
+                Put exact words in quotes: <b>"rat terrier"</b><br/>
+<br/>
+                <label>of these words:</label>
+                <input type="text" id="custId" name="custId" value="">
+                Type OR between all the words you want: <b>miniature OR standard</b><br/>
+<br/>
+                <label>of these words:</label> 
+                <input type="text" id="custId" name="custId" value="">
+                Put a minus sign just before words that you don't want: ,<b>-rodent, -"Jack Russell"</b><br/>
+                <br/><br/>
+               <pre><input type="submit" value="Advanced Search" id="bottom"></pre>
+            </form>
+    </body> 
+</html>
